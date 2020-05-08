@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+rocketmq:
+  nameServerAddr: '120.79.62.119:9876'
+  producer:
+    group: 'ordered_producer'
+    topic: 'ordered'
+  consumer:
+    group: 'ordered_consumer'
+    topic: 'ordered'
